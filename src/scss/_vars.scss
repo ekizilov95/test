@@ -1,0 +1,34 @@
+// COLORS
+$color-white: #fff;
+$color-black: #000;
+$color-catskill:#E2E9F0;
+// FONT DEFAULT //
+$mw: 1770px;
+$fz: 16px;
+$fw: 400;
+
+// MAIN CONTAINER //
+.site-container {
+  overflow: hidden;
+  min-width: 100%;
+}
+
+// CONTAINER //
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: $mw;
+
+  @media (max-width: 1200px) {
+    max-width: 970px;
+  }
+
+  @media (max-width: 992px) {
+    max-width: 750px;
+  }
+
+  @media (max-width: 767px) {
+    max-width: none;
+  }
+
+}
